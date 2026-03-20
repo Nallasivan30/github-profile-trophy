@@ -39,7 +39,7 @@ export class TrophyList {
       new LongTimeAccountTrophy(userInfo.durationYear),
       new AncientAccountTrophy(userInfo.ancientAccount),
       new OGAccountTrophy(userInfo.ogAccount),
-      new Joined2020Trophy(userInfo.joined2020),
+      new Joined2020Trophy(userInfo.joined2020),   
       new MultipleOrganizationsTrophy(userInfo.totalOrganizations),
       new AccountDurationTrophy(userInfo.durationDays),
     );

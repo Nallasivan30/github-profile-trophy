@@ -15,7 +15,9 @@ export const queryUserActivity = `
         }
       }
     }
-`;
+`;         
+   
+
 
 export const queryUserIssue = `
   query userInfo($username: String!) {
